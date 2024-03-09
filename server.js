@@ -17,7 +17,7 @@ std.then('请输入要发送文件的地址：', path => {
 
 
     std.resolve()
-}).then('请输入要监听的端口号,如3002', port => {
+}).then('请输入要监听的端口号,如3002：', port => {
     app.listen(port, () => {
         console.log('开始监听, 端口: ' + port);
         console.log('请将下列地址发给你的朋友:');
